@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categorie</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="top-header d-flex align-items-center py-2  fixed-top ">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-6 col-md-2 mt-2  col-md-4">
+                        <a href="">
+                            <img width="150px" src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class=" col-6 col-md-2 mt-2   col-md-4 ">
+                        <input type="text" class="form-control" placeholder=" Search for the product">
+                    </div>
+                    <div class="col-md-4 left-header d-flex align-items-center d-none d-lg-flex justify-content-end">
+                        <a data-bs-toggle="offcanvas" href="#cart" role="button" aria-controls="offcanvasExample">
+                            <span> Cart</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a href="">
+                            <span>Favorites</span>
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                        <a data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="offcanvasExample">
+                            <span>Login</span>
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttom-header  fixed-top " style="top:56px">
+            <div class="buttom-header  ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div>
+                        <button class="navbar-toggler menu-icon " type="button" data-bs-toggle="offcanvas"
+                            href="#login">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </button>
+                        <button class="navbar-toggler menu-icon  " type="button" data-bs-toggle="offcanvas"
+                            href="#cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="categorie.html">Mobails</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="categorie.html">Accessories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="categorie.html">Games</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="categorie.html">Makeup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="categorie.html">Watches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="categorie.html">Headphones</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start bunner -->
+    <section class="bunner">
+        <i class="fa-solid fa-mobile-screen-button"></i>
+        <h4> Mobails Section</h4>
+    </section>
+    <!-- end bunner -->
+    <div class="container mt-5">
+        <button class="navbar-toggler menu-icon d-sm-none mb-3 search-nav sticky-top " type="button" data-bs-toggle="offcanvas"
+        href="#filter">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+        <div class="row">
+            <div class="col-md-3 d-none d-md-block">
+                <div class="fillter sticky-lg-top">
+                    <h4 class="fillter-title">Search</h4>
+                    <input type="text" class="form-control" placeholder="  Search for the product   ">
+                    <select name="" id="" class="form-select mt-3">
+                        <option value="">Mobails </option>
+                        <option value="">Accessories </option>
+                        <option value="">Games </option>
+                        <option value=""> Makeup</option>
+                        <option value=""> Watches</option>
+                        <option value=""> Headphones</option>
+                    </select>
+                    <hr>
+                    <h4 class="fillter-title">Phone Type</h4>
+                    <div class="fillter-radio d-flex flex-column gap-2">
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">Vivo</label>
+                        </div>
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">iphone</label>
+                        </div>
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">samsung</label>
+                        </div>
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">oppo</label>
+                        </div>
+                    </div>
+                    <h4 class="fillter-title mt-3">Type Of Processors </h4>
+                    <div class="fillter-radio d-flex flex-column gap-2">
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">Media Tek Dimensity 9300</label>
+                        </div>
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">Qualcomm Snapdragon 8 Gen 2</label>
+                        </div>
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">Exynos 2400</label>
+                        </div>
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">Apple A16 Bionic</label>
+                        </div>
+                        <div>
+                            <input name="categorie" type="radio" class="form-check-input">
+                            <label for="" class="form-label">Apple A16 Pro</label>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row row-cols-2 row-cols-md-3  ">
+                    <div class="col product  mb-3  top ">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/vivo2.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>vivo V30 5G</h3>
+                                <p>funtouch OS 11.1 (based on android 11)</p>
+                                <p>The battery status : 100%</p>
+                                <div class="stars  mt-5">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="empty fa-regular fa-star"></i>
+                                    <span>(5)</span>
+                                </div>
+                                <div class="price mt-2">
+                                    <span> 806.77$</span>
+                                    <span> 956$</span>
+        
+                                </div>
+                                <button onclick="alert('   Added Successfully, Thnak you ')" class="btn btn-danger w-100">ADD TO
+                                    CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product  mb-3  top">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/iphon1.jpg" alt="product" class="w-75">
+                            <div class="product-info">
+                                <h3 class="mt-2">iphone 16 128G</h3>
+                                <p>The battery status : 100%</p>
+                                <p>Number of charging courses:28</p>
+                                <div class="stars stars-one ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="empty fa-regular fa-star"></i>
+                                    <span>(7)</span>
+        
+                                </div>
+                                <div class="price mt-2">
+                                    <span> 790.94$</span>
+                                    <span> 899.48$</span>
+        
+                                </div>
+                                <button onclick="alert('   Added Successfully, Thnak you ')" class="btn btn-danger w-100">ADD TO
+                                    CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product  mb-3   phones">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/Product-4-1.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>Samsung Galaxy S25 Ultra</h3>
+                                <p>The battery status : 100%</p>
+                                <p>Number of charging courses:28</p>
+                                <div class="stars stars-one ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="empty fa-regular fa-star"></i>
+                                    <span>(7)</span>
+        
+                                </div>
+                                <div class="price mt-2">
+                                    <span> 790.94$</span>
+                                    <span> 899.48$</span>
+        
+                                </div>
+                                <button onclick="alert('   Added Successfully, Thnak you ')" class="btn btn-danger w-100">ADD TO
+                                    CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col product  mb-3  top">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/iphon2.jpg" alt="product" class="w-100">
+                            <div class="product-info">
+                                <h3 class="mt-2">iphone 16 128G</h3>
+                                <p>The battery status : 100%</p>
+                                <p>Number of charging courses:28</p>
+                                <div class="stars stars-one ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="empty fa-regular fa-star"></i>
+                                    <span>(7)</span>
+        
+                                </div>
+                                <div class="price mt-2">
+                                    <span> 790.94$</span>
+                                    <span> 899.48$</span>
+        
+                                </div>
+                                <button onclick="alert('   Added Successfully, Thnak you ')" class="btn btn-danger w-100">ADD TO
+                                    CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product  mb-3  top ">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/vivo1.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>vivo V30 5G</h3>
+                                <p>funtouch OS 11.1 (based on android 11)</p>
+                                <p>The battery status : 100%</p>
+                                <p>Number of charging courses:28</p>
+                                <div class="stars  mt-5">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="empty fa-regular fa-star"></i>
+                                    <span>(5)</span>
+                                </div>
+                                <div class="price mt-2">
+                                    <span> 806.77$</span>
+                                    <span> 956$</span>
+        
+                                </div>
+                                <button onclick="alert('   Added Successfully, Thnak you ')" class="btn btn-danger w-100">ADD TO
+                                    CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start Offcanvas  -->
+     <!-- cart  -->
+     <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart">your cart </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row flex-column row-mini-cat">
+                <div class="col mini-cart d-flex justify-content-between align-items-center">
+                    <img src="images/vivo2.jpg" alt="product"  class="img-fluid w-25 ">
+                        <p>vivo V30 5G</p>
+                    <div class="btn-group btns-one-mini">
+                        <button type="button" class="btn "> <i class="fa-solid fa-trash-can"></i> </button>
+                            <button type="button" class="btn ">1</button>
+                            <button type="button" class="btn "><i class="fa-solid fa-plus-minus"></i></button>
+                    </div>
+                </div>
+                <div class="col mini-cart d-flex justify-content-between align-items-center ">
+                    <img src="images/glitersheglam.jpg" alt="product" class="img-fluid w-25 ">
+                        <p>glyter hellokitty from SHEGLAM</p>
+                    <div class="btn-group btns-one-mini">
+                        <button type="button" class="btn "> <i class="fa-solid fa-trash-can"></i> </button>
+                            <button type="button" class="btn ">1</button>
+                            <button type="button" class="btn "><i class="fa-solid fa-plus-minus"></i></button>
+                    </div>
+                </div>
+                <div class="col mini-cart d-flex justify-content-between align-items-center">
+                    <img src="images/laptop7.jpg" alt="product" class="img-fluid w-25">
+                        <p>Sony VAIO laptop</p>
+                    <div class="btn-group btns-one-mini">
+                        <button type="button" class="btn "> <i class="fa-solid fa-trash-can"></i> </button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn "><i class="fa-solid fa-plus-minus"></i></button>
+                    </div>
+                </div>
+                <div class="col mini-cart d-flex justify-content-between align-items-center">
+                    <img src="images/iphon1.jpg" alt="product" class="img-fluid w-25">
+                        <p>iphone 16 128G</p>
+                    <div class="btn-group btns-one-mini">
+                        <button type="button" class="btn "> <i class="fa-solid fa-trash-can"></i> </button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn "><i class="fa-solid fa-plus-minus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-3">
+                <p class="alert alert-danger p-3 my-3 text-center">Products value 1587.09$</p>
+                <a href="cart.html"> <button class=" btn btn-primary w-100 ">View cart</button>
+                </a>
+                <a href="checkout.html"><button class=" btn btn-success w-100 ">Complete ordere </button></a>
+            </div>
+        </div>
+    </div>
+    <!-- card -->
+     <!--  start login -->
+     <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="login">Login </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mini-login">
+                <form>
+                    <div class="mb-3">
+                        <label for="Email1" class="form-label"> enter your username or email  </label>
+                        <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Password" class="form-label" > enter Password </label>
+                        <input type="password" class="form-control" id="Password"  >
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">seve me </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">login </button>
+                </form>
+                <div class="alert alert-danger my-3 text-center">
+                    <a href="">  frogot your Password?</a>
+                </div>
+                <hr>
+                <div class="text-center mt-5">
+                    <i class="fa-solid fa-user fa-3x"></i>
+                    <p>Don’t have an account? </p>
+                    <a href="" class="btn btn-success w-100">Create a new account  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  end login -->
+    <!-- filter -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="filter" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart">البحث  </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="fillter sticky-lg-top">
+                <h4 class="fillter-title">البحث</h4>
+                <input type="text" class="form-control" placeholder="اكتب اسم المنتح الذي تبحث عنه">
+                <select name="" id="" class="form-select mt-3">
+                    <option value="">جوالات vivo</option>
+                    <option value="">جوالات سامسونغ</option>
+                    <option value="">جوالات الايفون</option>
+                    <option value="">جوالات oppo</option>
+                </select>
+                <hr>
+                <h4 class="fillter-title">التصنيف</h4>
+                <div class="fillter-radio d-flex flex-column gap-2">
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">vivo</label>
+                    </div>
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">samsung</label>
+                    </div>
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">iphone</label>
+                    </div>
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">oppo</label>
+                    </div>
+                </div>
+                <h4 class="fillter-title mt-3">البحث حسب نوع المعالج</h4>
+                <div class="fillter-radio d-flex flex-column gap-2">
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">vivo</label>
+                    </div>
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">samsung</label>
+                    </div>
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">iphone</label>
+                    </div>
+                    <div>
+                        <input name="categorie" type="radio" class="form-check-input">
+                        <label for="" class="form-label">oppo</label>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- filter -->
+    <!-- end Offcanvas  -->
+    <!-- strat footer -->
+    <footer class="">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col one-footer mb-3">
+                    <img class="w-75" src="images/logo-white.png" alt="logo">
+                    <p class="text-white">ERATMART Store always here for you</p>
+                    <ul class="navbar-nav text-white">
+                        <li > <i class="fa-solid fa-globe"></i>YEMEN - SANA’A </li>
+                        <li><i class="fa-solid fa-phone"></i>709384728</li>
+                        <li> <i class="fa-solid fa-envelope"></i>cinnamon@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col tow-footer mb-3">
+                    <h3>Most important links </h3>
+                    <ul class="navbar-nav ">
+                        <li><a href="">About US</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Licenses</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Technical support</a></li>
+                    </ul>
+                </div>
+                <div class="col three-footer mb-3">
+                    <h3> Categories</h3>
+                    <ul class="navbar-nav ">
+                        <li><a href="">Phones</a></li>
+                        <li><a href="">Accessories</a> </li>
+                        <li><a href="">Games</a> </li>
+                        <li><a href="">Makeup</a> </li>
+                        <li><a href="">Watches</a> </li>
+                        <li><a href="">Headphones</a> </li>
+                    </ul>
+                </div>
+                <div class="col four-footer mb-3">
+                    <h3>Latest updates </h3>
+                    <p class="text-white">TO Know the Latest updates , please subscribe</p>
+                    <form action="">
+                        <input type="text" placeholder="Enter  your email" class="form-control mb-3">
+                        <button class="btn btn-success w-100">Join</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2  ">
+                <div class="col  mt-3">
+                    <img src="images/payments.png" alt="">
+                </div>
+                <div class="col d-flex justify-content-end mt-3">
+                    <p class="text-white text-end  ">All rights reserved , ERATMART Store 2025 </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
